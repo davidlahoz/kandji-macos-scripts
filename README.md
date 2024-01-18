@@ -1,6 +1,6 @@
 # Kandji Scripts for Lazy Admins
 
-Some silly scripts I made to make my life easier. They rely or need Kandji to work properly (they generate Alerts for Kandji's Admin panel). They are created to avoid doing repetitive tasks or sometimes vene reporting. They might be buggy, and I am sure they could be coded in a better way but... It ain't much but it's honest work.
+Some silly scripts I made to make my life easier. Some fo them rely on Kandji to work properly (they generate Alerts for Kandji's Admin panel and use Kandji CLI commands). They are created to avoid doing repetitive tasks or sometimes even reporting. They might be buggy, and I am sure they could be coded in a better way but... It ain't much but it's honest work.
 
 [Scripts](/Scripts) - Few basic monitoring scripts like battery health status, FreeSpaceMonitor, etc. They will use exit codes to show the results on Kandji.
 
