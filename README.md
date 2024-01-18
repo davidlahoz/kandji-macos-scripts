@@ -2,9 +2,9 @@
 
 Some silly scripts I made to make my life easier. They rely or need Kandji to work properly (they generate Alerts for Kandji's Admin panel). They are created to avoid doing repetitive tasks or sometimes vene reporting. They might be buggy, and I am sure they could be coded in a better way but... It ain't much but it's honest work.
 
-[Monitoring Scripts (monitoringscripts)](/monitoringscripts) - Few basic monitoring scripts like battery health status, FreeSpaceMonitor, etc. They will use exit codes to show the results on Kandji.
+[Scripts](/Scripts) - Few basic monitoring scripts like battery health status, FreeSpaceMonitor, etc. They will use exit codes to show the results on Kandji.
 
-[App Listing for iOS/MacOS devices (DeviceAppFiltering)](/DeviceAppFiltering) - Using Kandji API and Python, a list for installed Apps (in JSON) is generated. Giving the option to filter and create a list of users that use X app.
+[Utilities](Utilities) - Using Kandji API and Python, a list for installed Apps (in JSON) is generated. Giving the option to filter and create a list of users that use X app.
 
 
 

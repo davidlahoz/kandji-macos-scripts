@@ -1,4 +1,7 @@
 #!/bin/bash
+# Created by David L. (https://github.com/davidlahoz)
+#
+# Creates a folder to store files or logs used by scripts, tools, etc.
 # Replace "ITResources" to anything of your choice
 
 # Create the ITResources folder

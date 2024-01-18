@@ -1,7 +1,8 @@
 #!/bin/zsh
-# Script is designed to trigger an alert in Kandji if the battery condition is not normal and/or if the cycle count has reached a given threshold.
-# Inspired by Matt Wilson's original batteryhealth script.
 # Source: https://github.com/kandji-inc/support/blob/main/Scripts/audit-scripts/alert_batteryhealth.zsh
+# Script is designed to trigger an alert in Kandji if the battery condition is not normal and/or if the cycle count has reached a given threshold.
+# Inspired by Matt Wilson's original batteryhealth script. 
+
 
 #Amount of cycles after you which you'd want to receive an alert.
 cycleAlert=1000

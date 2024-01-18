@@ -1,3 +1,4 @@
+# Created by David L. (https://github.com/davidlahoz)
 import json
 
 #Warning text

@@ -1,3 +1,4 @@
+# Created by David L. (https://github.com/davidlahoz)
 # This script uses Kandji's API to retrieve to 2 different JSON files
 # the devices "Mac" and "iPhone". # In case that you want to expand to iPad/AppleTV, add other lists. Add devices according to  "platform"
 # Created by David Lahoz

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Free Space monitor script
-# Created by David L.
+# Created by David L. (https://github.com/davidlahoz)
 #
 # Description:
 # Retrieve free space from device. If the space is < X, it will show as an alert on Kandji (exit 1). 
