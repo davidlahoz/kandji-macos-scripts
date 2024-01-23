@@ -1,7 +1,7 @@
 #!/bin/bash
 # Created by David L. (https://github.com/davidlahoz)
 #
-# Script to modify /private/etc/pam.d/sudo and manage backups.
+# Script to modify /private/etc/pam.d/sudo to enable TouchID on Sudo and backs up the original config file.
 # Also copies the file backup to the "ITResources" folder created with ResourceFolder.sh
 # Replace "ITResources" if ResourceFolder.sh was customized. If nto the folder is created (see line 12)
 
