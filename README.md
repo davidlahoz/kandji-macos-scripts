@@ -8,15 +8,15 @@ The primary goal of these scripts is to automate repetitive tasks, simplify repo
 
 ### Features
 
-- **Scripts Directory**: Contains essential monitoring scripts such as battery health status and FreeSpaceMonitor. These scripts utilize exit codes to communicate results effectively within the Kandji framework.
+- **[Scripts](/Scripts)**: Contains essential monitoring scripts such as battery health status and FreeSpaceMonitor. These scripts utilize exit codes to communicate results effectively within the Kandji framework.
 
-- **Utilities**: This section utilizes the Kandji API and Python to generate a list of installed applications in JSON format. It offers the flexibility to filter and create user lists based on application usage.
+- **[Utilities](Utilities)**: This section utilizes the Kandji API and Python to generate a list of installed applications in JSON format. It offers the flexibility to filter and create user lists based on application usage.
 
 ## Configuration
 
 ### Prerequisites
 
-To utilize these scripts effectively, certain variables need to be set up as per your environment:
+To utilize the DeviceAppFiltering scripts effectively, certain variables from `1.GetAllDeviceID.py` need to be set up as per your environment:
 
 - `API_KEY`: Your personal API key from [Kandji](https://support.kandji.io/support/solutions/articles/72000560412-kandji-api).
 - `subdomain`: Your specific Kandji subdomain.
