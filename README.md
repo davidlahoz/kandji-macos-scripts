@@ -1,27 +1,29 @@
 # Kandji MacOS Scripts
 
-Some silly scripts I made to make my life easier. Some of them rely on Kandji to work properly (they generate Alerts for Kandji's Admin panel and use Kandji CLI). They are created to avoid doing repetitive tasks, reporting, or just some configuration changes. They might be buggy, and I am sure they could be coded in a better way but... It ain't much, but it's honest work.
+## Overview
 
-[Scripts](/Scripts) - A few basic monitoring scripts like battery health status, FreeSpaceMonitor, etc. They will use exit codes to show the results on Kandji.
+Welcome to the Kandji MacOS Scripts repository! This collection of scripts is designed to streamline various tasks for MacOS users, particularly those utilizing the Kandji platform. While some scripts in this repository are developed specifically for integration with Kandji — including generating alerts for Kandji's Admin panel and leveraging the Kandji CLI — others are more broadly applicable for routine monitoring and configuration tasks on MacOS.
 
-[Utilities](Utilities) - Using Kandji API and Python, a list of installed Apps (in JSON) is generated. Giving the option to filter and create a list of users that use "X" app.
+The primary goal of these scripts is to automate repetitive tasks, simplify reporting, and assist in system configurations. They are crafted with practicality in mind and, although they might have room for optimization, they serve as reliable tools for everyday use.
 
+### Features
 
+- **Scripts Directory**: Contains essential monitoring scripts such as battery health status and FreeSpaceMonitor. These scripts utilize exit codes to communicate results effectively within the Kandji framework.
 
+- **Utilities**: This section utilizes the Kandji API and Python to generate a list of installed applications in JSON format. It offers the flexibility to filter and create user lists based on application usage.
 
+## Configuration
 
+### Prerequisites
 
-## Variables
+To utilize these scripts effectively, certain variables need to be set up as per your environment:
 
-To run some scripts, you must manually add/modify the following variables on some scripts.
-
-`API_KEY` - from [Kandji](https://support.kandji.io/support/solutions/articles/72000560412-kandji-api)
-
-`subdomain` - Your Kandji's subdomain 
+- `API_KEY`: Your personal API key from [Kandji](https://support.kandji.io/support/solutions/articles/72000560412-kandji-api).
+- `subdomain`: Your specific Kandji subdomain.
 
 ## Acknowledgements
 
- - [Official Kandji Github repo](https://github.com/kandji-inc/support)
- - [Server Khalilov](https://github.com/red17electro) - for helping me with some sorting silly issue
+This project owes its thanks to:
 
-
+- [Official Kandji Github Repository](https://github.com/kandji-inc/support) for their invaluable resources and tools.
+- [Server Khalilov](https://github.com/red17electro) for the collaborative effort in resolving a particular sorting issue.
