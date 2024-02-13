@@ -18,10 +18,10 @@ The primary goal of these scripts is to automate repetitive tasks, simplify repo
 
 ### Prerequisites
 
-To utilize the DeviceAppFiltering scripts effectively, certain variables from `1.GetAllDeviceID.py` need to be set up as per your environment:
+To utilize the DeviceAppFiltering scripts effectively, certain variables from `config.json` need to be set up as per your environment:
 
 - `API_KEY`: Your personal API key from [Kandji](https://support.kandji.io/support/solutions/articles/72000560412-kandji-api).
-- `subdomain`: Your specific Kandji subdomain.
+- `subdomain`: Your specific Kandji subdomain. Please note that if you're using eu or us location is hardcoded in `1.GetAllDeviceID.py` and `2.AllDeviceAppListing.py`. I do not plan to upgrade since I will stop working using Kandji.
 
 ## Acknowledgements
 
