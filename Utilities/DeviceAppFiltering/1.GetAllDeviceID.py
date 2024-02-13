@@ -6,11 +6,15 @@ import requests
 import json
 import os
 
-subdomain = "acme"
-api_key = "CHANGEME"
-#CHANGE SUBDOMAIN AND REGION IF NEEDED.
-# US - https://SubDomain.api.kandji.io
-# EU - https://SubDomain.api.eu.kandji.io
+# Load the JSON configuration file
+with open('config.json', 'r') as config_file:
+    config_data = json.load(config_file)
+
+# Access the variables
+subdomain = config_data['subdomain']
+api_key = config_data['api_key']
+
+# Script variables
 url = f"https://{subdomain}.api.eu.kandji.io/api/v1/devices"
 
 

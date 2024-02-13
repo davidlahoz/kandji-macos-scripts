@@ -2,12 +2,7 @@
 import requests
 import json
 
-#Establish variables
-api_key = "CHANGEME"
-    #CHANGE SUBDOMAIN AND REGION IF NEEDED.
-        # US - https://SubDomain.api.kandji.io
-        # EU - https://SubDomain.api.eu.kandji.io
-url_template = "https://SUBDOMAIN.api.eu.kandji.io/api/v1/devices/{}/apps" 
+url_template = F"https://{subdomain}.api.eu.kandji.io/api/v1/devices/{}/apps" 
 
 # Listing iPhoneApps
 with open('MacDevices.json') as f:

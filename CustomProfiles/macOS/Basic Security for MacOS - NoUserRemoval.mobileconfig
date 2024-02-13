@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Screensaver</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.screensaver.8708C207-59B1-4CFD-9342-1F5B6C0FC73E</string>
+			<key>PayloadType</key>
+			<string>com.apple.screensaver</string>
+			<key>PayloadUUID</key>
+			<string>8708C207-59B1-4CFD-9342-1F5B6C0FC73E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>askForPassword</key>
+			<true/>
+			<key>askForPasswordDelay</key>
+			<integer>300</integer>
+			<key>moduleName</key>
+			<string>Flurry</string>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mobiledevice.passwordpolicy.A24F1E7F-C3E9-417B-B14E-AC98A3B43B48</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>A24F1E7F-C3E9-417B-B14E-AC98A3B43B48</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>maxInactivity</key>
+			<integer>5</integer>
+			<key>minComplexChars</key>
+			<integer>1</integer>
+			<key>minLength</key>
+			<integer>8</integer>
+			<key>requireAlphanumeric</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>EnableFirewall</key>
+			<true/>
+			<key>LoggingOption</key>
+			<string>brief</string>
+			<key>PayloadDisplayName</key>
+			<string>Firewall #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.firewall.B92984F4-37B4-43D9-AFCE-1B1168BD1CD1</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.firewall</string>
+			<key>PayloadUUID</key>
+			<string>B92984F4-37B4-43D9-AFCE-1B1168BD1CD1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Security</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.C96D2FA6-B49C-421F-8021-448E22EEBBE1</string>
+			<key>PayloadType</key>
+			<string>com.apple.security</string>
+			<key>PayloadUUID</key>
+			<string>C96D2FA6-B49C-421F-8021-448E22EEBBE1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DisabledPreferencePanes</key>
+			<array>
+				<string>com.apple.preference.startupdisk</string>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>System Preferences #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.systempreferences.1B00B1CC-34B8-4F72-AE54-BAA7850C77B1</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempreferences</string>
+			<key>PayloadUUID</key>
+			<string>1B00B1CC-34B8-4F72-AE54-BAA7850C77B1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string> Basic security for MacOS
+Passcode
+- min leng. 8 chars
+- min 1 complex char
+- Autolock 5min
+
+Screensaver
+- Flurry by default
+- After 5Min autolock
+- require pwd
+
+Others
+- Mac Firewall enabled wit brief logging
+- Automatically reenable Gatekeeper
+- Disabled Startup Disk option from Settings panel</string>
+	<key>PayloadDisplayName</key>
+	<string>Basic Security for MacOS</string>
+	<key>PayloadIdentifier</key>
+	<string>DavidLahoz.E608F186-CB0F-481C-9972-A92E717578C9</string>
+	<key>PayloadOrganization</key>
+	<string>github.com/davidlahoz</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>355CF53D-37C6-427E-9F5A-9F86F242EC44</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

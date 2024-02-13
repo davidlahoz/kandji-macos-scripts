@@ -2,16 +2,20 @@
 import requests
 import json
 
+# Load the JSON configuration file
+with open('config.json', 'r') as config_file:
+    config_data = json.load(config_file)
+
+# Access the variables
+subdomain = config_data['subdomain']
+api_key = config_data['api_key']
+
 #Warning text
 print('\033[1;31mWarning! Heavy API request. Please wait!\033[0m')
 print('\033[1;33mGetting Apps from all iPhones and Macbooks on Kandji. You will get two json output files!\033[0m')
 
-# Establish variables
-api_key = "CHANGEME"
-#CHANGE SUBDOMAIN AND REGION IF NEEDED.
-# US - https://SubDomain.api.kandji.io
-# EU - https://SubDomain.api.eu.kandji.io
-url_template = "https://SUBDOMAIN.api.eu.kandji.io/api/v1/devices/{}/apps"  # Change subdomain and region if needed
+#Script variables
+url_template = F"https://{subdomain}.api.eu.kandji.io/api/v1/devices/{}/apps"
 
 # Function to gather app lists
 def gather_app_list(device_file, output_file):

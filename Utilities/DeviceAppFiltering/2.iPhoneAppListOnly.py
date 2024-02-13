@@ -2,12 +2,15 @@
 import requests
 import json
 
-api_key = "CHANGEME"
+# Load the JSON configuration file
+with open('config.json', 'r') as config_file:
+    config_data = json.load(config_file)
 
-#CHANGE SUBDOMAIN AND REGION IF NEEDED.
-# US - https://SubDomain.api.kandji.io
-# EU - https://SubDomain.api.eu.kandji.io
-url_template = "https://subdomain.api.eu.kandji.io/api/v1/devices/{}/apps" #change subdomain 
+# Access the variables
+subdomain = config_data['subdomain']
+api_key = config_data['api_key']
+
+url_template = F"https://{subdomain}.api.eu.kandji.io/api/v1/devices/{}/apps" #change subdomain 
 
 # Listing iPhoneApps
 with open('iPhoneDevices.json') as f:

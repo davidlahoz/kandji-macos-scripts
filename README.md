@@ -12,6 +12,8 @@ The primary goal of these scripts is to automate repetitive tasks, simplify repo
 
 - **[Utilities](Utilities)**: This section utilizes the Kandji API and Python to generate a list of installed applications in JSON format. It offers the flexibility to filter and create user lists based on application usage.
 
+- **[Custom Profiles](/CustomProfiles)**: Contains few mobileconfig with quite generic settings for macOS and iOS. However for obvious reasons, they can be manually removed to avoid hassle. A version of the mobileconfig files with no-removal option is also provided as separated file. (__Note: in order to prevent users from removing the profiles, devices must be on supervised mode__)
+
 ## Configuration
 
 ### Prerequisites

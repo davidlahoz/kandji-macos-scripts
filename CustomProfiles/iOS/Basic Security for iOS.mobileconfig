@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.7D53B972-95DD-4249-93AC-EA28347EE9DF</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>7D53B972-95DD-4249-93AC-EA28347EE9DF</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowApplePersonalizedAdvertising</key>
+			<false/>
+			<key>allowLockScreenControlCenter</key>
+			<false/>
+			<key>allowSharedDeviceTemporarySession</key>
+			<false/>
+			<key>allowUntrustedTLSPrompt</key>
+			<false/>
+			<key>allowVoiceDialing</key>
+			<false/>
+			<key>forceAirPlayOutgoingRequestsPairingPassword</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mobiledevice.passwordpolicy.7A84F31A-494A-4F47-B254-2B134DB6FD02</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>7A84F31A-494A-4F47-B254-2B134DB6FD02</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>forcePIN</key>
+			<true/>
+			<key>maxInactivity</key>
+			<integer>3</integer>
+			<key>minLength</key>
+			<integer>6</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Basic iOS Security
+- require device password (6 chars min)
+- Autolock after 3 min of inactivity
+- disables control center when screen is locked
+- disable Apple-personalized advertising
+- require password for first outgoing airplay connection</string>
+	<key>PayloadDisplayName</key>
+	<string>Basic Security for iOS</string>
+	<key>PayloadIdentifier</key>
+	<string>DavidLahoz.793862C2-22A0-4E3E-8721-FEAAFF81EA4D</string>
+	<key>PayloadOrganization</key>
+	<string>github.com/davidlahoz</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>214B7BB4-FCE4-4667-A274-90325B31EE38</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>1</integer>
+</dict>
+</plist>
