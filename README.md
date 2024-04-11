@@ -1,5 +1,8 @@
 # Kandji MacOS Scripts
 
+[![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Abandoned-orange.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+
+
 ## Overview
 
 Welcome to the Kandji MacOS Scripts repository! This collection of scripts is designed to streamline various tasks for MacOS users, particularly those utilizing the Kandji platform. While some scripts in this repository are developed specifically for integration with Kandji — including generating alerts for Kandji's Admin panel and leveraging the Kandji CLI — others are more broadly applicable for routine monitoring and configuration tasks on MacOS.
